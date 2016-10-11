@@ -1,0 +1,21 @@
+# Setup
+title:        swot-da
+tagline:      SWOT data assimilation inter-comparison
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Kostas Andreadis
+  email:      kandread@jpl.nasa.gov
+  url:        http://swot-da.github.io 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+
+exclude: [Gemfile, Gemfile.lock, README.md, vendor, org, .hyde.el]
+
