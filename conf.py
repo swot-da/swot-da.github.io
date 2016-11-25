@@ -186,6 +186,7 @@ PAGES = (
 )
 
 # Add the orgmode compiler to your COMPILERS dict.
+COMPILERS = {}
 COMPILERS["orgmode"] = ('.org',)
 
 # Add org files to your POSTS, PAGES
