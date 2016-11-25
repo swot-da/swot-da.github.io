@@ -1,0 +1,4 @@
+Sitemap: https://swot-da.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: swot-da.github.io
