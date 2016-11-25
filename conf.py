@@ -185,9 +185,6 @@ PAGES = (
     ("pages/*.html", "pages", "story.tmpl"),
 )
 
-# Add the orgmode compiler to your COMPILERS dict.
-COMPILERS = {}
-COMPILERS["orgmode"] = ('.org',)
 
 # Add org files to your POSTS, PAGES
 POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
@@ -278,6 +275,9 @@ COMPILERS = {
     # with many of the others.
     # "pandoc": ('.rst', '.md', '.txt'),
 }
+
+# Add the orgmode compiler to your COMPILERS dict.
+COMPILERS["orgmode"] = ('.org',)
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
